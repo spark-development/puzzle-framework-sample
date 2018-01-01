@@ -1,0 +1,35 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample Puzzle Framework project",
+  "main": "sample_puzzle.js",
+  "private": true,
+  "bin": {
+    "sample_puzzle-cli": "./bin/cli",
+    "sample_puzzle": "./bin/sample_puzzle"
+  },
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js --watch . sample_puzzle.js"
+  },
+  "keywords": [
+    "sample",
+    "puzzle framework"
+  ],
+  "dependencies": {
+    "puzzle-framework": "^1.0.0",
+    "bluebird": "^3.5.0",
+    "nodemon": "^1.12.1"
+  },
+  "author": "Valentin Duricu <valentin.duricu@spark-dev.ro>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "puzzle": {
+    "core": {
+      "acl": true,
+      "db": true,
+      "ui": true
+    },
+    "modules": [
+      "sample.module"
+    ]
+  }
+}

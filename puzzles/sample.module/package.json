@@ -1,0 +1,16 @@
+{
+  "name": "remy.base",
+  "version": "0.1.0",
+  "description": "Base objects, functions, modules for Remy",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "remy",
+    "base object"
+  ],
+  "peerDependencies": {
+    "@sparkdev/puzzle-framework": "~2.2.x"
+  },
+  "author": "Valentin Duricu (valentin.duricu@spark-dev.ro)",
+  "license": "SEE LICENSE IN LICENSE.md"
+}
