@@ -1,10 +1,10 @@
-/**
- * Socket.io configuration file.
- */
-
 "use strict";
 
-/** Socket.io configuraion. */
+/**
+ * Socket.io configuration.
+ *
+ * @memberOf engine.config.socket
+ */
 module.exports = {
   /**
    * Enables or disables the socket.io functionality.

@@ -1,6 +1,10 @@
 "use strict";
 
-/** HTTP configuration. */
+/**
+ * HTTP configuration.
+ *
+ * @memberOf engine.config.http
+ */
 module.exports = {
   /**
    * Specifies the port the application is listening to.

@@ -20,6 +20,8 @@ module.exports = {
    */
   log: {
     /**
+     * Specifies the level of detail needed in the logs.
+     *
      * Log level: emergency, alert, critical, error, warning, notice, info, debug
      *
      * @type {string}
@@ -67,5 +69,5 @@ module.exports = {
    *
    * @type {string}
    */
-  name: "Puzzle Framework Sample application",
+  name: "Puzzle Framework Sample application"
 };

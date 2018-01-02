@@ -1,6 +1,10 @@
 "use strict";
 
-/** Session configuration. */
+/**
+ * Session configuration.
+ *
+ * @memberOf engine.config.session
+ */
 module.exports = {
   /**
    * The secret used to encrypt the session cookie.
@@ -12,7 +16,7 @@ module.exports = {
   /**
    * The secret used to encrypt the session cookie.
    *
-   * @type {string}
+   * @type {string|function}
    */
   store: 'memory'
 };
