@@ -1,13 +1,3 @@
 {
-	"UP DONE": "UP DONE",
-	"DOWN DONE": "DOWN DONE",
-	"RESET DONE": "RESET DONE",
-	"DOWN ERROR": "DOWN ERROR",
-	"UP ERROR": "UP ERROR",
-	"RESET ERROR": "RESET ERROR",
-	"Command finished!": "Command finished!",
-	"Current migration to be run:": "Current migration to be run:",
-	"Migrations that have ran:": "Migrations that have ran:",
-	"Pending migrations:": "Pending migrations:",
-	"STATUS DONE": "STATUS DONE"
+	"hello": "sample world"
 }

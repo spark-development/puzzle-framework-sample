@@ -33,7 +33,7 @@ module.exports = {
      *
      * @type {string}
      */
-    file: "logs/sample.log",
+    file: "",
 
     /**
      * Should the log be rotated?
@@ -47,7 +47,14 @@ module.exports = {
      *
      * @type {string}
      */
-    size: '50m',
+    size: "50k",
+
+    /**
+     * How often to check for file rotation conditions. possible values are '1s', '1m', '1h'. default is 5m.
+     *
+     * @type {string}
+     */
+    schedule: "5m",
 
     /**
      * Should the rotated log be compressed?

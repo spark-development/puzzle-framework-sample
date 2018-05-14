@@ -1,6 +1,6 @@
 "use strict";
 
-const Puzzle = require("puzzle-framework");
+const puzzle = require("puzzle-framework-lite");
+puzzle.app = require("./package.json");
 
-const puzzleInstance = Puzzle(require("./package.json"));
-puzzleInstance.run();
+puzzle.boot();

@@ -1,6 +1,6 @@
 "use strict";
 
-const Route = require('puzzle-framework/src/http/Route');
+const Route = puzzle.import('http/Route');
 
 /**
  * Route Base for .
@@ -8,14 +8,14 @@ const Route = require('puzzle-framework/src/http/Route');
  * @extends {Route}
  */
 class Base extends Route {
-  constructor(engine) {
-      super(engine, "");
+  constructor() {
+    super("");
   }
 
   register() {
-      this.get("/", (req, res) => {
-        res.render("sample")
-      });
+    this.get("/", (req, res) => {
+      res.render("sample")
+    });
   }
 }
 

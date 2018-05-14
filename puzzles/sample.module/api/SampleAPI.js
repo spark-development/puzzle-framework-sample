@@ -1,20 +1,21 @@
 "use strict";
 
-const API = require('puzzle-framework/src/http/API');
+const API = puzzle.import('http/API');
 
 /**
  * Class SampleAPI
  */
 class SampleAPI extends API {
-  constructor(engine) {
-    super(engine, "sample");
+  constructor() {
+    super("sample");
   }
 
   register() {
     this.get("/", (req, res) => {
       res.json({
-        hello: res.__("sample world"),
-        path: this.path
+        hello: res.__('hello'),
+        path: this.path,
+        config: puzzle.config
       });
     });
   }
