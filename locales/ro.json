@@ -1,3 +1,4 @@
 {
-  "hello": "exemplu lume"
+  "hello": "exemplu lume",
+  "core.invalid-instance": "Invalid instance sent. Expected [{0}]."
 }

@@ -18,7 +18,7 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "nodemon": "^1.17.3",
-    "puzzle-framework-lite": "^1.0.0"
+    "puzzle-framework": "^1.2.0"
   },
   "author": "Valentin Duricu <valentin.duricu@spark-dev.ro>",
   "license": "SEE LICENSE IN LICENSE.md",

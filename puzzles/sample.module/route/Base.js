@@ -12,11 +12,11 @@ class Base extends Route {
     super("");
   }
 
-  register() {
-    this.get("/", (req, res) => {
-      res.render("sample")
-    });
-  }
+  // register() {
+  //   this.get("/", (req, res) => {
+  //     res.render("sample")
+  //   });
+  // }
 }
 
 module.exports = Base;

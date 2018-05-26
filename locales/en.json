@@ -1,3 +1,4 @@
 {
-	"hello": "sample world"
+	"hello": "sample world",
+  "core.invalid-instance": "Invalid instance sent. Expected [{0}]."
 }
