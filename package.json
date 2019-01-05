@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "bluebird": "^3.5.1",
+    "fsevents": "^2.0.0",
     "nodemon": "^1.17.3",
     "puzzle-framework": "^1.2.0"
   },
