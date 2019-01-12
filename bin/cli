@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 "use strict";
 
-const puzzle = require("puzzle-framework-lite/src/cmd");
+const puzzle = require("@puzzleframework/core/src/cli");
 puzzle.app = require("../package.json");
 puzzle.boot();

@@ -1,6 +1,6 @@
 "use strict";
 
-const puzzle = require("puzzle-framework");
+const puzzle = require("@puzzleframework/core");
 puzzle.app = require("./package.json");
 
 puzzle.boot();

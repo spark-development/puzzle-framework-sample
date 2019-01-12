@@ -4,7 +4,7 @@ const bundle = puzzle.import("utils/bundle");
 const PRuntime = puzzle.import("core/PRuntime");
 
 const SampleCommand = require("./SampleCommand");
-const SampleBundle = require("../sample.bundle");
+const SampleBundle = require("../bundle");
 
 class SampleModule extends PRuntime {
   constructor() {
